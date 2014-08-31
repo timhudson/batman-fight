@@ -1,0 +1,19 @@
+{
+  "name": "batman-fight",
+  "version": "1.0.0",
+  "description": "Complete list of batman fight words seen on the 1960's Batman series",
+  "main": "index.js",
+  "author": "Tim Hudson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timhudson/batman-fight.git"
+  },
+  "keywords": [
+    "words"
+  ],
+  "bugs": {
+    "url": "https://github.com/timhudson/batman-fight/issues"
+  },
+  "homepage": "https://github.com/timhudson/batman-fight"
+}
