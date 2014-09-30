@@ -1,6 +1,9 @@
 {
   "name": "batman-fight",
   "version": "1.0.0",
+  "bin": {
+    "batman-fight": "cli.js"
+  },
   "description": "Complete list of batman fight words seen on the 1960's Batman series",
   "main": "index.js",
   "author": "Tim Hudson",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/timhudson/batman-fight/issues"
   },
-  "homepage": "https://github.com/timhudson/batman-fight"
+  "homepage": "https://github.com/timhudson/batman-fight",
+  "dependencies": {
+    "from2": "^1.2.0"
+  }
 }
