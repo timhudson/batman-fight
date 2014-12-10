@@ -5,6 +5,7 @@ var bf = require('./')
 
 from(function(size, next) {
   setTimeout(function() {
-    next(null, bf[Math.round(Math.random() * bf.length)] + '!\n')
+    var word = bf[Math.round(Math.random() * (bf.length - 1))]
+    next(null, word + '!\n')
   }, Math.random() * 1500)
 }).pipe(process.stdout)
